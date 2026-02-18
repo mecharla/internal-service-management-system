@@ -29,33 +29,25 @@ This application demonstrates CRUD operations using Spring Boot, Spring Data JPA
 
 ## 📁 Project Structure
 
+```text
 src
 ├── main
-│ ├── java
-│ │ └── com
-│ │ └── poojitha
-│ │ └── internalservice
-│ │ ├── InternalServiceApplication.java
-│ │ ├── controller
-│ │ │ └── UserController.java
-│ │ ├── service
-│ │ │ └── UserService.java
-│ │ ├── repository
-│ │ │ └── UserRepository.java
-│ │ ├── entity
-│ │ │ └── User.java
-│ │ └── exception
-│ │ ├── GlobalExceptionHandler.java
-│ │ └── ResourceNotFoundException.java
-│ └── resources
-│ └── application.properties
-│
+│   ├── java
+│   │   └── com/poojitha/internalservice
+│   │       ├── InternalServiceApplication.java
+│   │       ├── controller/UserController.java
+│   │       ├── service/UserService.java
+│   │       ├── repository/UserRepository.java
+│   │       ├── entity/User.java
+│   │       └── exception
+│   │           ├── GlobalExceptionHandler.java
+│   │           └── ResourceNotFoundException.java
+│   └── resources
+│       └── application.properties
 └── test
-└── java
-└── com
-└── poojitha
-└── internalservice
-└── InternalServiceApplicationTests.java
+    └── java/com/poojitha/internalservice
+        └── InternalServiceApplicationTests.java
+```
 
 
 
